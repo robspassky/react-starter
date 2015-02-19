@@ -1,5 +1,7 @@
 # webpack/react-starter
 
+Hi, I'm Xingwu.
+
 Starter template for react and webpack.
 
 ## Features
