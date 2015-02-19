@@ -4,6 +4,7 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var loadersByExtension = require("./config/loadersByExtension");
 var joinEntry = require("./config/joinEntry");
 
+
 module.exports = function(options) {
 	var entry = {
 		main: reactEntry("main"),
@@ -64,6 +65,7 @@ module.exports = function(options) {
 		/node_modules[\\\/]items-store[\\\/]/
 	];
 	var plugins = [
+		new webpack.IgnorePlugin(/vertx/),
 		function() {
 			if(!options.prerender) {
 				this.plugin("done", function(stats) {

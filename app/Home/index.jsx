@@ -11,7 +11,7 @@ module.exports = React.createClass({
 				<li><Link to="todolist" params={{list: "mylist"}}>mylist</Link></li>
 				<li><Link to="todolist" params={{list: "otherlist"}}>otherlist</Link></li>
 			</ul>
-			<p>Or try to switch to <Link to="some-page">some page</Link>.</p>
+			<p>Or do we even try to try to switch to <Link to="some-page">some page</Link>.</p>
 		</div>;
 	}
 });
