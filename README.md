@@ -1,6 +1,6 @@
 # webpack/react-starter
 
-Hi, I'm Liyu.
+Hi, I'm Xingwu.
 
 Starter template for react and webpack.
 
