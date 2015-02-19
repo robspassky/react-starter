@@ -50,7 +50,7 @@ npm run start-dev
 http://localhost:8080/
 ```
 
-The configuration is `webpack-dev-server.config.js`.
+The configuration is `webpack.dev.config.js`.
 
 It automatically recompiles and refreshes the page when files are changed.
 
@@ -72,7 +72,7 @@ npm run start-dev
 http://localhost:8080/
 ```
 
-The configuration is `webpack-hot-dev-server.config.js`.
+The configuration is `webpack.hot.config.js`.
 
 It automatically recompiles when files are changed. When a hot-replacement-enabled file is changed (i. e. stylesheets or React components) the module is hot-replaced. If Hot Replacement is not possible the page is refreshed.
 
@@ -130,7 +130,7 @@ Many file types are preconfigured, but not every loader is installed. If you get
 
 ### Switch devtool to SourceMaps
 
-Change `devtool` property in `webpack-dev-server.config.js` and `webpack-hot-dev-server.config.js` to `"source-map"` (better module names) or `"eval-source-map"` (faster compilation).
+Change `devtool` property in `webpack.dev.config.js` and `webpack.hot.config.js` to `"source-map"` (better module names) or `"eval-source-map"` (faster compilation).
 
 SourceMaps have a performance impact on compilation.
 
